@@ -3,18 +3,18 @@ html {
     width: 100%;
     margin: 0;
     padding: 0; }
-  
-  .row {
+
+.row {
     margin: 0;
     padding: 0; }
-  
-  ul li {
+
+ul li {
     list-style: none; }
-  
-  a {
+
+a {
     cursor: pointer; }
-  
-  .acenter {
+
+.acenter {
     text-align: center; }
 
 p {
@@ -27,41 +27,41 @@ p {
 
 
 .botonInicio {
-  margin-top: 1px; 
-  margin-left: 15%;
-  background: transparent;
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  border: 2px solid #7DD8C2;
-  box-shadow: 6px 5px 24px black;
-  font-family: Arial;
-  color: white;
-  font-size: 27px;
-  padding: 19px;
-  text-decoration: none;
-  text-transform: uppercase;
-  margin-bottom: 10%;
+margin-top: 1px; 
+margin-left: 15%;
+background: transparent;
+-webkit-border-radius: 28;
+-moz-border-radius: 28;
+border-radius: 28px;
+border: 2px solid #7DD8C2;
+box-shadow: 6px 5px 24px black;
+font-family: Arial;
+color: white;
+font-size: 27px;
+padding: 19px;
+text-decoration: none;
+text-transform: uppercase;
+margin-bottom: 10%;
 }
 
 .botonInicio:hover {
-  background-color: #7DD8C2;
-  color: #8E2DE2;
+background-color: #7DD8C2;
+color: #8E2DE2;
 }
 
 .botonPresupuesto {
-  margin-left: 40%;
-  margin-right: 40%;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 27px;
-  padding: 10px;
-  margin-bottom: 10%;
+margin-left: 40%;
+margin-right: 40%;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 27px;
+padding: 10px;
+margin-bottom: 10%;
 }
 
 .container-fluid {
     padding: 0%; 
 }
-  
+
 /***BODY***/
 .bodyinicio {
     background: #8E2DE2;  /* fallback for old browsers */
@@ -75,35 +75,35 @@ p {
 
 /***NAV***/
 .menuUno {
-    display: flex;
+display: flex;
     flex-wrap: nowrap;
     align-items: flex-start;
     align-content: left;
     justify-content: flex-end;
 }
     .menuUno #navbarNav ul {
-      font-family: "Open Sans", sans-serif;
-      font-size: 18px; }
-      .menuUno #navbarNav ul li a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px; }
+    .menuUno #navbarNav ul li a {
         display: block;
         padding: 10px 10px;
         color: white;
         transition: all .2s; }
         .menuUno #navbarNav ul li a:hover {
-          color: #7DD8C2;
-          font-size: 19px; }
+        color: #7DD8C2;
+        font-size: 19px; }
 
 .menuUno .logo img {
-  padding-top: 0%;
-  position: relative;
-  width: 200px;
-  height: 200px;
-  margin-right: 800px;
-  margin-left: 5%;
-  transition: all 2s; }
-  .menuUno .logo img:hover {
+padding-top: 0%;
+position: relative;
+width: 200px;
+height: 200px;
+margin-right: 800px;
+margin-left: 5%;
+transition: all 2s; }
+.menuUno .logo img:hover {
     width: 300px;
-      height: 300px; 
+    height: 300px; 
   }
 
 .bienvenidos .fraseprincipal h1 {
@@ -116,19 +116,19 @@ p {
 }
 
 .bienvenidos .fraseprincipal p {
-  text-align: left;
-  margin-top: 2px; 
-  margin-left: 15%;
-  margin-bottom: 3%;
+text-align: left;
+margin-top: 2px; 
+margin-left: 15%;
+margin-bottom: 3%;
 }
 
 
 
 .imgComputer {
-  margin-left: 0%;
-  margin-right: 5%;
-  padding: 0%;
-  margin-top: 5%; 
+margin-left: 0%;
+margin-right: 5%;
+padding: 0%;
+margin-top: 5%; 
 }
 
 .snow {
@@ -234,23 +234,23 @@ p {
     padding-bottom: 60px;
     /*background-color: black;*/ }
     form label {
-      width: 250px;
-      font-weight: bold;
-      color: #000;
-      font-size: 15px;
-      display: inline-block; }
-      form label:hover {
+    width: 250px;
+    font-weight: bold;
+    color: #000;
+    font-size: 15px;
+    display: inline-block; }
+    form label:hover {
         color: #7DD8C2; }
-  
-  form input[type="text"], form input[type="email"] {
+
+form input[type="text"], form input[type="email"] {
     width: 180px;
     padding: 3px 10px;
     border: 3px solid grey;
     border-radius: 5px;
     margin: 10px 0;
     display: inline-block; }
-  
-  form input[type="submit"] {
+
+form input[type="submit"] {
     width: 50%;
     padding: 8px 16px;
     margin-top: 32px;
@@ -260,16 +260,16 @@ p {
     color: #fff;
     background-color: #993E80; }
     form input[type="submit"]:hover {
-      cursor: pointer;
-      color: black; }
-  
+    cursor: pointer;
+    color: black; }
+
 .validate-form {
-  color: red;
-  margin-left: 55%;
+color: red;
+margin-left: 55%;
 }
 
 .validate-form h6 {
-  font-size: 12px;
+font-size: 12px;
 
 }
 
@@ -278,9 +278,9 @@ width: 100%;
 }
 
 .option-value {
-  color: #8E2DE2;
-  font-size: 14px;
-  margin-bottom: 4%;
+color: #8E2DE2;
+font-size: 14px;
+margin-bottom: 4%;
 }
 
 .footer-distributed {
@@ -292,68 +292,68 @@ width: 100%;
     padding: 55px 50px;
     margin-top: 10px; }
     .footer-distributed .footer-left {
-      display: inline-block;
-      vertical-align: top;
-      width: 40%; }
+    display: inline-block;
+    vertical-align: top;
+    width: 40%; }
     .footer-distributed .footer-center {
-      display: inline-block;
-      vertical-align: top;
-      width: 35%; }
-      .footer-distributed .footer-center p {
+    display: inline-block;
+    vertical-align: top;
+    width: 35%; }
+    .footer-distributed .footer-center p {
         display: inline-block;
         color: #7DD8C2;
         vertical-align: middle;
         margin: 0; }
         .footer-distributed .footer-center p span {
-          display: block;
-          font-weight: normal;
-          font-size: 14px;
-          line-height: 2; }
+        display: block;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 2; }
         .footer-distributed .footer-center p a {
-          color: #7DD8C2;
-          text-decoration: none; }
+        color: #7DD8C2;
+        text-decoration: none; }
     .footer-distributed .footer-right {
-      display: inline-block;
-      vertical-align: top;
-      width: 20%; }
+    display: inline-block;
+    vertical-align: top;
+    width: 20%; }
     .footer-distributed h3 {
-      color:  white;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 26px;
-      margin: 0; }
-      .footer-distributed h3:hover {
+    color:  white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    margin: 0; }
+    .footer-distributed h3:hover {
         font-size: 30px;
         transition: all .3s; }
-      .footer-distributed h3 span {
+    .footer-distributed h3 span {
         color: #7DD8C2; }
     .footer-distributed .footer-links {
-      color:  white;
-      margin: 20px 0 12px;
-      padding: 0; }
-      .footer-distributed .footer-links a {
+    color:  white;
+    margin: 20px 0 12px;
+    padding: 0; }
+    .footer-distributed .footer-links a {
         display: inline-block;
         line-height: 3px;
         text-decoration: none;
         color: inherit; }
         .footer-distributed .footer-links a:hover {
-          color: grey;
-          transition: all .3s; }
+        color: grey;
+        transition: all .3s; }
     .footer-distributed .footer-company-name {
-      color: #7DD8C2;
-      font-size: 14px;
-      font-weight: normal;
-      margin: 0; }
+    color: #7DD8C2;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0; }
     .footer-distributed .footer-company-about {
-      line-height: 20px;
-      color: #7DD8C2;
-      font-size: 13px;
-      font-weight: normal;
-      margin: 0; }
-      .footer-distributed .footer-company-about:hover {
+    line-height: 20px;
+    color: #7DD8C2;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0; }
+    .footer-distributed .footer-company-about:hover {
         color: grey;
         transition: all .3s;
         font-size: 15px; }
-      .footer-distributed .footer-company-about span {
+    .footer-distributed .footer-company-about span {
         display: block;
         color: #7DD8C2;
         font-size: 14px;
@@ -361,8 +361,8 @@ width: 100%;
         margin-top: 20px;
         margin-bottom: 5px; }
     .footer-distributed .footer-icons {
-      margin-top: 25px; }
-      .footer-distributed .footer-icons a {
+    margin-top: 25px; }
+    .footer-distributed .footer-icons a {
         display: inline-block;
         width: 25px;
         height: 25px;
@@ -375,6 +375,6 @@ width: 100%;
         margin-right: 3px;
         margin-bottom: 5px; }
         .footer-distributed .footer-icons a img {
-          width: 20px;
-          height: 20px;
-          margin-top: 15%; }
+        width: 20px;
+        height: 20px;
+        margin-top: 15%; }
